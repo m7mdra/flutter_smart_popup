@@ -149,9 +149,3 @@ SmartPopup(
 
 **Note**: Barrier dismissal (tap outside to close) works perfectly with blur effects enabled.
 
-
-## last
-<p>Our full-stack freelance team is opening to new projects</p>
-<p>If you have any questions about Flutter, or if you need me to customize a Flutter application for you, please feel free to contact me:
-QQ: 965471570 Gmail: herowws90@gmail.com</p>
-<p>如果您有任何关于Flutter的问题，或者需要我为您定制一个Flutter应用程序，请联系我: QQ:965471570  Gmail:herowws90@gmail.com</p>
