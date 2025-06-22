@@ -1,0 +1,22 @@
+name: flutter_smart_popup
+description: A smart and versatile popup library for Flutter with intelligent positioning, customizable styling, result propagation, and beautiful blur effects. Features automatic positioning, smooth animations, and contextual guidance.
+version: 1.0.0
+homepage: https://github.com/m7mdra/flutter_smart_popup
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+ 
+dev_dependencies:
+  example:
+    path: example
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
