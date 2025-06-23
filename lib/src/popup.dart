@@ -1,17 +1,6 @@
 part of flutter_smart_popup;
 
-/// Utility class to help close popups with results
-class PopupNavigator {
-  /// Close the current popup with an optional result
-  static void pop<T>(BuildContext context, [T? result]) {
-    Navigator.of(context).pop(result);
-  }
 
-  /// Check if there's a popup that can be popped
-  static bool canPop(BuildContext context) {
-    return Navigator.of(context).canPop();
-  }
-}
 
 enum _ArrowDirection { top, bottom }
 

@@ -240,19 +240,19 @@ class _MenuWithResult extends StatelessWidget {
       children: [
         ListTile(
           title: Text('Option A'),
-          onTap: () => PopupNavigator.pop<String>(context, 'Option A'),
+          onTap: () => Navigator.pop<String>(context, 'Option A'),
         ),
         ListTile(
           title: Text('Option B'),
-          onTap: () => PopupNavigator.pop<String>(context, 'Option B'),
+          onTap: () => Navigator.pop<String>(context, 'Option B'),
         ),
         ListTile(
           title: Text('Option C'),
-          onTap: () => PopupNavigator.pop<String>(context, 'Option C'),
+          onTap: () => Navigator.pop<String>(context, 'Option C'),
         ),
         ListTile(
           title: Text('Cancel'),
-          onTap: () => PopupNavigator.pop<String>(context, null),
+          onTap: () => Navigator.pop<String>(context, null),
         ),
       ],
     );

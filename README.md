@@ -109,13 +109,9 @@ if (result != null) {
 }
 
 // Close popup with result from inside popup content
-PopupNavigator.pop<String>(context, 'selected_value');
+Navigator.pop<String>(context, 'selected_value');
 ```
 
-
-## Migration Guide
-
-### From `flutter_popup` to `flutter_smart_popup`
 
 ## Blur/Backdrop Effects
 

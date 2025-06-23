@@ -1,3 +1,10 @@
+## 1.1.0
+
+* **BREAKING CHANGE**: Removed `PopupNavigator` class - use Flutter's standard `Navigator.pop()` instead
+* **IMPROVEMENT**: Simplified API by using native Flutter navigation patterns
+* **DOCS**: Updated README.md with corrected usage examples
+* **DOCS**: Removed migration guide section as it's no longer needed
+
 ## 1.0.0
 
 * **INITIAL RELEASE**: Smart and versatile popup library for Flutter
