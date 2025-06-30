@@ -29,14 +29,14 @@ void main() {
                         const Text('Choose an option:'),
                         const SizedBox(height: 10),
                         ElevatedButton(
-                          onPressed: () => PopupNavigator.pop<String>(
+                          onPressed: () => Navigator.pop<String>(
                             tester.element(find.byType(ElevatedButton).first),
                             'Option A',
                           ),
                           child: const Text('Option A'),
                         ),
                         ElevatedButton(
-                          onPressed: () => PopupNavigator.pop<String>(
+                          onPressed: () => Navigator.pop<String>(
                             tester.element(find.byType(ElevatedButton).last),
                             'Option B',
                           ),

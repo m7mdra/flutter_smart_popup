@@ -130,7 +130,7 @@ void main() {
               content: Builder(
                 builder: (context) => ElevatedButton(
                   onPressed: () =>
-                      PopupNavigator.pop<String>(context, 'test_result'),
+                      Navigator.pop<String>(context, 'test_result'),
                   child: const Text('Return Result'),
                 ),
               ),
@@ -165,11 +165,11 @@ void main() {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ElevatedButton(
-                      onPressed: () => PopupNavigator.pop<int>(context, 42),
+                      onPressed: () => Navigator.pop<int>(context, 42),
                       child: const Text('Return 42'),
                     ),
                     ElevatedButton(
-                      onPressed: () => PopupNavigator.pop<int>(context, null),
+                      onPressed: () => Navigator.pop<int>(context, null),
                       child: const Text('Return Null'),
                     ),
                   ],

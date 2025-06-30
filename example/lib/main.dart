@@ -252,6 +252,7 @@ class _MenuWithResult extends StatelessWidget {
         ),
         ListTile(
           title: Text('Cancel'),
+          textColor: Colors.red,
           onTap: () => Navigator.pop<String>(context, null),
         ),
       ],
